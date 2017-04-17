@@ -1,0 +1,12 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "no-trailing-spaces": "off",
+    "global-require":"off",
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["test/**/*.js"]}],
+    "no-magic-numbers": "off"
+  }
+}

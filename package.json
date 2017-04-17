@@ -1,0 +1,31 @@
+{
+  "name": "dolores-item-collector",
+  "version": "1.0.0",
+  "description": "dolores items collector which can collect all the items in pocket",
+  "main": "index.js",
+  "repository": "git@my.github.com:AC-Dolores/dolores-item-collector.git",
+  "author": "AaronChen",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "test": "mocha test --recursive",
+    "ci": "yarn run lint && yarn run test"
+  },
+  "dependencies": {
+    "moment": "^2.18.1",
+    "mongodb": "^2.2.25",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "mocha": "^3.2.0",
+    "mock-require": "^2.0.1",
+    "sinon": "^1.17.7"
+  }
+}
